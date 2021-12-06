@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="End_to_end_edit_profile_user" time="26.131" tests="3" failures="0" errors="0">
+   <testsuite name="End_to_end_edit_profile_user" tests="3" failures="0" errors="0" time="26.131" skipped="0" timestamp="2021-12-06 14:35:22" hostname="monikasiregar - localhost" id="Test Suites/End_to_end_edit_profile_user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/monikasiregar/Katalon Studio/Qasir/Reports/20211206_143509/End_to_end_edit_profile_user/20211206_143509"/>
+         <property name="logFiles" value="/Users/monikasiregar/Katalon Studio/Qasir/Reports/20211206_143509/End_to_end_edit_profile_user/20211206_143509/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="monikasiregar - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.55"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="256af97a2c75245105cd3df2e8143e2f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login/tc_LoginByPhone" time="10.606" classname="Test Cases/Login/tc_LoginByPhone" status="PASSED">
+         <system-out><![CDATA[2021-12-06 14:35:22 - [TEST_CASE][PASSED] - Test Cases/Login/tc_LoginByPhone: Test Cases/Login/tc_LoginByPhone
+
+2021-12-06 14:35:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-06 14:35:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-06 14:35:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-06 14:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-06 14:35:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-06 14:35:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-06 14:35:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.qasir.id/sign-in"): Navigate to 'https://www.qasir.id/sign-in' successfully
+
+2021-12-06 14:35:29 - [MESSAGE][PASSED] - Navigate to 'https://www.qasir.id/sign-in' successfully
+
+2021-12-06 14:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txtPhone"), "82162391216"): Text '82162391216' is set on object 'Object Repository/Login/txtPhone'
+
+2021-12-06 14:35:32 - [MESSAGE][PASSED] - Text '82162391216' is set on object 'Object Repository/Login/txtPhone'
+
+2021-12-06 14:35:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/txtPassword"), "g5moeaIHhvc="): Text ****** has been set on object 'Object Repository/Login/txtPassword'
+
+2021-12-06 14:35:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/txtPassword'
+
+2021-12-06 14:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/btnLogin")): Object: 'Object Repository/Login/btnLogin' is clicked on
+
+2021-12-06 14:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnLogin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outlet/tc_ChooseOutlet" time="2.568" classname="Test Cases/Outlet/tc_ChooseOutlet" status="PASSED">
+         <system-out><![CDATA[2021-12-06 14:35:33 - [TEST_CASE][PASSED] - Test Cases/Outlet/tc_ChooseOutlet: Test Cases/Outlet/tc_ChooseOutlet
+
+2021-12-06 14:35:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Outlet/btnSunPlaza"), 10): Object 'Object Repository/Outlet/btnSunPlaza' is present
+
+2021-12-06 14:35:35 - [MESSAGE][PASSED] - Object 'Object Repository/Outlet/btnSunPlaza' is present
+
+2021-12-06 14:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Outlet/btnSunPlaza")): Object: 'Object Repository/Outlet/btnSunPlaza' is clicked on
+
+2021-12-06 14:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Outlet/btnSunPlaza' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile/tc_EditProfile" time="11.218" classname="Test Cases/Profile/tc_EditProfile" status="PASSED">
+         <system-out><![CDATA[2021-12-06 14:35:35 - [TEST_CASE][PASSED] - Test Cases/Profile/tc_EditProfile: Test Cases/Profile/tc_EditProfile
+
+2021-12-06 14:35:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Profile/btnProfile"), 60): Object 'Object Repository/Profile/btnProfile' is present
+
+2021-12-06 14:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Profile/btnProfile' is present
+
+2021-12-06 14:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Profile/btnProfile")): Object: 'Object Repository/Profile/btnProfile' is clicked on
+
+2021-12-06 14:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/btnProfile' is clicked on
+
+2021-12-06 14:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Profile/btnUserProfile")): Object: 'Object Repository/Profile/btnUserProfile' is clicked on
+
+2021-12-06 14:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/btnUserProfile' is clicked on
+
+2021-12-06 14:35:43 - [TEST_STEP][PASSED] - userDir = System.getProperty("user.dir"): null
+
+2021-12-06 14:35:43 - [TEST_STEP][PASSED] - photoPath = userDir + "/Data Files/potoku.jpg": null
+
+2021-12-06 14:35:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Profile/btnEditPhoto"), 20): Object 'Object Repository/Profile/btnEditPhoto' is visible
+
+2021-12-06 14:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/Profile/btnEditPhoto' is visible
+
+2021-12-06 14:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/txtFirstName"), "monika ulina"): Text 'monika ulina' is set on object 'Object Repository/Profile/txtFirstName'
+
+2021-12-06 14:35:44 - [MESSAGE][PASSED] - Text 'monika ulina' is set on object 'Object Repository/Profile/txtFirstName'
+
+2021-12-06 14:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Profile/txtLastName"), "siregar"): Text 'siregar' is set on object 'Object Repository/Profile/txtLastName'
+
+2021-12-06 14:35:45 - [MESSAGE][PASSED] - Text 'siregar' is set on object 'Object Repository/Profile/txtLastName'
+
+2021-12-06 14:35:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Profile/btnSave"), 10): Scroll to object 'Object Repository/Profile/btnSave' successfully
+
+2021-12-06 14:35:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile/btnSave' successfully
+
+2021-12-06 14:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Profile/btnSave")): Object: 'Object Repository/Profile/btnSave' is clicked on
+
+2021-12-06 14:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/btnSave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-06 14:35:22 - [TEST_SUITE][PASSED] - End_to_end_edit_profile_user: Test Cases/Profile/tc_EditProfile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

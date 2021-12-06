@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+End_to_end_edit_profile_user,Chrome 96.0.4664.55,,,2021-12-06 15:05:57,2021-12-06 15:06:24,27.165s,PASSED
+,,,,,,,
+Test Cases/Login/tc_LoginByPhone,Chrome 96.0.4664.55,,,2021-12-06 15:05:58,2021-12-06 15:06:10,11.967s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.55,,,2021-12-06 15:05:58,2021-12-06 15:06:02,3.925s,PASSED
+maximizeWindow(),Chrome 96.0.4664.55,,,2021-12-06 15:06:02,2021-12-06 15:06:03,0.255s,PASSED
+"navigateToUrl(""https://www.qasir.id/sign-in"")",Chrome 96.0.4664.55,,,2021-12-06 15:06:03,2021-12-06 15:06:05,2.617s,PASSED
+"setText(findTestObject(""Login/txtPhone""), ""82162391216"")",Chrome 96.0.4664.55,,,2021-12-06 15:06:05,2021-12-06 15:06:08,2.920s,PASSED
+"setEncryptedText(findTestObject(""Login/txtPassword""), ""g5moeaIHhvc="")",Chrome 96.0.4664.55,,,2021-12-06 15:06:08,2021-12-06 15:06:09,1.029s,PASSED
+"click(findTestObject(""Login/btnLogin""))",Chrome 96.0.4664.55,,,2021-12-06 15:06:09,2021-12-06 15:06:10,0.565s,PASSED
+,,,,,,,
+Test Cases/Outlet/tc_ChooseOutlet,Chrome 96.0.4664.55,,,2021-12-06 15:06:10,2021-12-06 15:06:12,2.708s,PASSED
+"waitForElementPresent(findTestObject(""Outlet/btnSunPlaza""), 10)",Chrome 96.0.4664.55,,,2021-12-06 15:06:10,2021-12-06 15:06:12,1.899s,PASSED
+"click(findTestObject(""Outlet/btnSunPlaza""))",Chrome 96.0.4664.55,,,2021-12-06 15:06:12,2021-12-06 15:06:12,0.341s,PASSED
+,,,,,,,
+Test Cases/Profile/tc_EditProfile,Chrome 96.0.4664.55,,,2021-12-06 15:06:12,2021-12-06 15:06:24,11.888s,PASSED
+"waitForElementPresent(findTestObject(""Profile/btnProfile""), 60)",Chrome 96.0.4664.55,,,2021-12-06 15:06:13,2021-12-06 15:06:18,5.465s,PASSED
+"click(findTestObject(""Profile/btnProfile""))",Chrome 96.0.4664.55,,,2021-12-06 15:06:18,2021-12-06 15:06:19,0.418s,PASSED
+"click(findTestObject(""Profile/btnUserProfile""))",Chrome 96.0.4664.55,,,2021-12-06 15:06:19,2021-12-06 15:06:20,1.566s,PASSED
+"userDir = System.getProperty(""user.dir"")",Chrome 96.0.4664.55,,,2021-12-06 15:06:20,2021-12-06 15:06:20,0.002s,PASSED
+"photoPath = userDir + ""/Data Files/potoku.jpg""",Chrome 96.0.4664.55,,,2021-12-06 15:06:20,2021-12-06 15:06:20,0.000s,PASSED
+"waitForElementVisible(findTestObject(""Profile/btnEditPhoto""), 20)",Chrome 96.0.4664.55,,,2021-12-06 15:06:20,2021-12-06 15:06:21,0.894s,PASSED
+"setText(findTestObject(""Profile/txtFirstName""), ""monika ulina"")",Chrome 96.0.4664.55,,,2021-12-06 15:06:21,2021-12-06 15:06:22,0.762s,PASSED
+"setText(findTestObject(""Profile/txtLastName""), ""siregar"")",Chrome 96.0.4664.55,,,2021-12-06 15:06:22,2021-12-06 15:06:23,0.722s,PASSED
+"scrollToElement(findTestObject(""Profile/btnSave""), 10)",Chrome 96.0.4664.55,,,2021-12-06 15:06:23,2021-12-06 15:06:23,0.385s,PASSED
+"click(findTestObject(""Profile/btnSave""))",Chrome 96.0.4664.55,,,2021-12-06 15:06:23,2021-12-06 15:06:24,1.410s,PASSED
